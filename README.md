@@ -36,7 +36,6 @@
 - Install IDE for Coq.
     + CoqIDE: installed by default.
     + VS Code: [VSCoq](https://github.com/coq-community/vscoq/tree/vscoq1). Follow the setup instructions.
-        * In this semester, we will use VS Code as default IDE.
         * VsCoq v2.x is new and shows unstableness. If you have trouble using VsCoq v2, downgrade to VsCoq Legacy (v0.3.9).
         * Basic command (based on vscoq github page)
             * ```alt + down``` : interpret next step
