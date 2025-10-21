@@ -14,9 +14,18 @@
 
 ## Grading(tentative)
 - Attendance: 5%
-- Assignments: 25%
-- Mid-term: 30%
-- Final: 40%
+- Mid-term: 45%
+- Final: 50%
+
+## Announcements
+- Oct. 21: Assignment 1 is uploaded.
+
+## Assignments
+
+- Download skeleton code and replace `FILL_IN_HERE` with your code in P**.v.
+- Each assignment have forbidden keyword in forbidden.txt. Try not to use those keywords.
+- We will not be grading assignments - feel free to complete them and test your understanding about the materials dealt in the classes.
+- Consult to the TA if you have any questions.
 
 ## Coq
 
