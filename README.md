@@ -19,6 +19,7 @@
 
 ## Announcements
 - Oct. 21: Assignment 1 is uploaded.
+- Oct. 27: Midterm exam will be held in Nov. 1. Please check instructions through [this page](exam/Midterm.md).
 
 ## Assignments
 

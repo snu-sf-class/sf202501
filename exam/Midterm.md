@@ -1,8 +1,13 @@
-# Midterm Exam
+# 중간고사
 
-- Date: Nov. 1 (Sat), 6pm ~ 10pm (no strict timeout)
-- Place: Software Lab (Building 302, Room 311-1)
-- Midterm covers chapters until IndProp.v.
-- In the exam, you will write coq codes and submit them via a web server.
-- Internet access will be forbidden except the submission server.
-- Further instructions will be provided before the exam through this page.
+- 시간: 11월 1일 (토), 6pm-10pm (시간제한 없음)
+- 장소: 소프트웨어 실습실 (302동, 311-1호)
+- 시험범위는 시험 전 수업시간까지 다룬 IndProp.v 까지입니다.
+- 시험에서는 Rocq 코드를 작성하고 웹 서버로 제출합니다.
+- 인터넷 접속을 제한하는 [Safe exam browser](https://safeexambrowser.org/news_en.html)를 사용할 예정입니다.
+- 추가 전달사항은 이 페이지를 통해 업데이트할 예정입니다.
+
+## 준비물
+- 학생증 및 신분증
+- MacOS 및 Windows가 설치된 노트북
+  - 혹여 노트북이 없으면 대여를 위해 학사 사무실에 연락하시고, 그마저 여의치 않으시면 조교에게 연락해주세요.
