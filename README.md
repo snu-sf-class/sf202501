@@ -20,7 +20,9 @@
 ## Announcements
 - Oct. 21: Assignment 1 is uploaded.
 - Oct. 27: Midterm exam will be held in Nov. 1. Please check instructions through [this page](exam/Midterm.md).
-
+- Oct. 31: Assignment 2 and 3 are uploaded.
+- Oct. 31: Sample of the midterm exam is uploaded - the format will be similar in our upcoming midterm. Check the exam directory.
+ 
 ## Assignments
 
 - Download skeleton code and replace `FILL_IN_HERE` with your code in P**.v.
