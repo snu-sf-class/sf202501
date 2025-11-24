@@ -22,6 +22,7 @@
 - Oct. 27: Midterm exam will be held in Nov. 1. Please check instructions through [this page](exam/Midterm.md).
 - Oct. 31: Assignment 2 and 3 are uploaded.
 - Oct. 31: Sample of the midterm exam is uploaded - the format will be similar in our upcoming midterm. Check the exam directory.
+- Nov. 24: Midterm scores are out in etl. Please claim until Nov. 28.
  
 ## Assignments
 
