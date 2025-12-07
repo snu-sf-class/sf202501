@@ -23,7 +23,8 @@
 - Oct. 31: Assignment 2 and 3 are uploaded.
 - Oct. 31: Sample of the midterm exam is uploaded - the format will be similar in our upcoming midterm. Check the exam directory.
 - Nov. 24: Midterm scores are out in etl. Please claim until Nov. 28.
- 
+- Dec. 07: Assignment 4 is uploaded. As usual, these files are not to be graded but provided as a supplementary material for self-study. Sidenote: SFRev.v is a file for reversing an array with solution provided.
+
 ## Assignments
 
 - Download skeleton code and replace `FILL_IN_HERE` with your code in P**.v.
