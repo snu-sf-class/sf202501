@@ -867,8 +867,9 @@ Qed.
     implements this idea.  Fill in decorations and prove the decorated
     program correct. (The proof should be very simple.) *)
 
-Example ex_slow_assignment (m : nat) :=
+Example ex_slow_assignment :=
   <{
+      Y := 0;
       while X <> 0 do
          X := X - 1;
          Y := Y + 1
@@ -877,9 +878,9 @@ Example ex_slow_assignment (m : nat) :=
 
 Theorem slow_assignment_correct : forall (m: nat),
     {{ X = m }}
-      ex_slow_assignment m
+      ex_slow_assignment
     {{ Y = m }}.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. (* FILL IN HERE *) Admitted. 
 (** [] *)
 
 (* ================================================================= *)
@@ -1201,16 +1202,16 @@ Compute fact 5. (* ==> 120 *)
     For example, recall that [1 + ...] is easier to work with than
     [... + 1]. *)
 
-Example ex_factorial (m:nat) : com
-(* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
-
-Definition factorial_pre : Assertion := FILL_IN_HERE.
-
-Definition factorial_post : Assertion := FILL_IN_HERE.
-
-(* FILL IN HERE *)
-
-Theorem factorial_correct: forall (m: nat),
-    {{ factorial_pre }} ex_factorial m {{ factorial_post }}.
-Proof. (* FILL IN HERE *) Admitted.
+Example ex_factorial : com
+(* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted. 
+  
+Definition factorial_pre (m:nat) : Assertion := FILL_IN_HERE. 
+  
+Definition factorial_post (m:nat) : Assertion := FILL_IN_HERE. 
+  
+(* FILL IN HERE *) 
+  
+Theorem factorial_correct: forall (m: nat), 
+    {{ $(factorial_pre m) }} ex_factorial {{ $(factorial_post m) }}.
+Proof. (* FILL IN HERE *) Admitted. 
 (** [] *)
