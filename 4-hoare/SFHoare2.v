@@ -880,7 +880,7 @@ Theorem slow_assignment_correct : forall (m: nat),
     {{ X = m }}
       ex_slow_assignment
     {{ Y = m }}.
-Proof. (* FILL IN HERE *) Admitted. 
+Proof. (* FILL IN HERE *) Admitted.
 (** [] *)
 
 (* ================================================================= *)
@@ -1203,15 +1203,15 @@ Compute fact 5. (* ==> 120 *)
     [... + 1]. *)
 
 Example ex_factorial : com
-(* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted. 
-  
-Definition factorial_pre (m:nat) : Assertion := FILL_IN_HERE. 
-  
-Definition factorial_post (m:nat) : Assertion := FILL_IN_HERE. 
-  
-(* FILL IN HERE *) 
-  
-Theorem factorial_correct: forall (m: nat), 
+(* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+
+Definition factorial_pre (m:nat) : Assertion := FILL_IN_HERE.
+
+Definition factorial_post (m:nat) : Assertion := FILL_IN_HERE.
+
+(* FILL IN HERE *)
+
+Theorem factorial_correct: forall (m: nat),
     {{ $(factorial_pre m) }} ex_factorial {{ $(factorial_post m) }}.
-Proof. (* FILL IN HERE *) Admitted. 
+Proof. (* FILL IN HERE *) Admitted.
 (** [] *)
