@@ -380,6 +380,7 @@ Notation "{{ P }} c {{ Q }}" :=
 
 Theorem hoare_post_true : forall (P Q : Assertion) c,
   (forall st, Q st) ->
+  (forall st, exists st', st =[ c ]=> (Some st')) ->
   {{P}} c {{Q}}.
 Proof.
   (* FILL IN HERE *) Admitted.
@@ -1774,7 +1775,8 @@ Theorem always_loop_hoare : forall Q,
 Proof.
   intros Q.
   eapply hoare_consequence_post.
-  - apply hoare_while. apply hoare_post_true. auto.
+  - apply hoare_while. apply hoare_post_true; auto.
+    intros. eexists. constructor.
   - simpl. intros st [Hinv Hguard]. congruence.
 Qed.
 
