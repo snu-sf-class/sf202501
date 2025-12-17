@@ -25,6 +25,7 @@
 - Nov. 24: Midterm scores are out in etl. Please claim until Nov. 28.
 - Dec. 07: Assignment 4 is uploaded. As usual, these files are not to be graded but provided as a supplementary material for self-study. Sidenote: SFRev.v is a file for reversing an array with solution provided.
 - Dec. 10: Sample of the final exam and the solution is uploaded. Check the [final](exam/final/final_sample) directory.
+- Dec. 17: Midterm scores are out in etl. Please claim until Nov. 18.
 
 ## Assignments
 
